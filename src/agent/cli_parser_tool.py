@@ -5,7 +5,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import torch
 from src.config import LLM_MODEL_PATH
 from langchain.output_parsers import StructuredOutputParser, ResponseSchema
-from src.models.models_loader import load_llm
+from src.models_loader import load_llm
 
 
 # Load the locally downloaded LLaMA-3.1 model

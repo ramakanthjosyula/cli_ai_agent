@@ -1,6 +1,6 @@
 from langchain.agents import initialize_agent, Tool
 from src.agent.cli_parser_tool import parse_cli_output
-from src.models.models_loader import load_llm
+from src.models_loader import load_llm
 
 llm = load_llm()
 
